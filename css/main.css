@@ -1,0 +1,191 @@
+/***BASE STYLES***/
+
+body {
+  font-family: 'Montserrat', 'Oleo Script';
+  width: 1200px;
+}
+
+/***GRID***/
+
+.full-width {
+  width: 1200px;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***HEADER***/
+
+header h1 {
+  font-family: 'Montserrat';
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  text-transform: uppercase;
+  float: left;
+  padding-left: 20px;
+}
+
+header h1 span {
+  font-family: 'Montserrat';
+  color: #77A466;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/***NAV***/
+
+nav ul li {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  display: inline-block;
+  padding-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/***HERO IMAGE***/
+
+.full-width img {
+  border-top: 3px solid #77A466;
+  border-bottom: 3px solid #77A466;
+}
+
+/***ABOUT TEXT***/
+
+h2 {
+  font-family: 'Montserrat';
+  color: #77a466;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.about-text {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  padding: 0 30px;
+
+}
+
+/***BOTTOM THIRDS SECTION***/
+
+.bottom-section {
+  width: 100%;
+}
+
+.section-one {
+  padding-bottom: 51px;
+}
+
+.section-three {
+  padding-bottom: 33px;
+}
+
+/****I added the padding above to section-one and section-three to help align the thin bottom border with section two, which was in the right place***/
+
+.section-one, .section-two, .section-three {
+  width: 400px;
+  height: auto;
+  border-top: 1px solid #b4b4b4;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.section-two, .section-three {
+  border-left: 1px solid #b4b4b4;
+}
+
+.section-one ul li {
+  font-family: 'Montserrat';
+  color: #77a466;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h4 {
+  font-family: 'Montserrat';
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.reviews {
+  font-family: 'Montserrat';
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.address {
+  font-family: 'Montserrat';
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+/***FOOTER***/
+
+footer {
+  clear: both;
+}
+
+footer p {
+  font-family: 'Montserrat';
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 35px 50px;
+  border-bottom: 1px solid #b4b4b4
+}
+
+footer span {
+  font-family: 'Oleo Script';
+  color: #77a466;
+  font-size: 20px;
+  text-transform: lowercase;
+}
